@@ -13,23 +13,32 @@
     <main> 
         <div class="searchform">
             <form id="search-form">
+                <div><h1>Bienvenidos a la app del Clima! Busca el clima de tu ciudad...</h1></div>
                 <div class="searchbox">
                     <input type="text" autocomplete="off" placeholder="Buscar ciudad..." class="search" id="search-box">
                 </div>
+                <div class="img_weather" id="img_weather"> 
+                    <img src="./images/weather.png">
+                </div>
+                
             </form>
         </div>
-        <div class="weathercard">
-            <div class="city">Cordoba, Argentina</div>
-            <div class="date">12/09/2022</div>
+        <div class="weathercard" id="card">
+            <div class="city" id="city">Cordoba, Argentina</div>
+            <div class="date" id="date">12/09/2022</div>
             <div class="temperature">
-                <img src="images/weather_icon_cold.svg"class="temp-img"/>
-                <div class="temp">14c</div>
+                <img src="images/weather_icon_cold.svg" class="temp-img" id="temp-img"/>
+                <div class="temp" id="temp">14c</div>
+                <div class="weather-icon"><img src="icons/unknown.png" /></div>
             </div>
-            <div class="weather">Sol</div>
-            <div class="range"><img src="images/weather_icon_cold.svg" class="temp-img"/>12c<img src="images/weather_icon_hot.svg" class="temp-img"/>18c</div>
+            <div class="weather" id="weather">Sol</div>
+            <div class="range" id="range"><img src="images/weather_icon_cold.svg" class="temp-img"/>12c<img src="images/weather_icon_hot.svg" class="temp-img"/>18c</div>
         </div>
     </main>
-    <footer></footer>  
+    
+    <footer id="footer">
+        <div><a href="https://github.com/vjdev76"><img src="icons/github.png" width=40px height=40px alt="github"></a></div> 
+    </footer>  
 
     <script type="text/javascript" src="app.js"></script>   
 </body>
