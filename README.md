@@ -15,7 +15,7 @@ Una vez encontrada la ciudad, se presentan algunos datos:
 - Temperatura Actual.
 - Icono de Temperatura (3 niveles: cold, warm y hot).
 - Icono de clima (codigo de icono tomado desde la API y relacionado con el icono correspondiente (carpeta icons).
-- Descrpicion del Clima: nubes, muy nuboso, cielo claro, etc.
+- Descripcion del Clima: nubes, muy nuboso, cielo claro, etc.
 - Temperatura Maxima.
 - Temperatura Minima.
 
